@@ -1,0 +1,36 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  font-family: sans-serif;
+}
+#uploadBtn {
+  height: 150px;
+  width: 150px;
+  border: 2px dashed #2563eb;
+  color: #999;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+#uploadBtn:hover {
+  background-color: #2563eb11;
+  color: #111;
+}
+
+#fileName {
+  margin-top: 10px;
+  font-family: Arial, sans-serif;
+}
+#submit{
+    padding: 10px;
+}
